@@ -25,7 +25,7 @@ if (pacar == null){
 
 alert(
     `Nama Saya ${nama}, Usia saya ${usia}. Tinggi Badan saya adalah ${tinggiBadan} 
-    dan Berat Badan saya adalah ${beratBadan}`
+    dan Berat Badan saya adalah ${beratBadan}. Status saya ${pacar}`
 )
 
 let saldoAwal = Number(prompt("Masukkan Saldo Awal anda : "))
