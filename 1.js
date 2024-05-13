@@ -9,6 +9,8 @@
 **/
 
 // 1. Prompt untuk mengetahui Saldo Akhir
+document.title = 'Tugas Kecil 1'
+
 let nama = "Ega Naww"
 let usia = 18
 let tinggiBadan = 160
@@ -38,11 +40,11 @@ alert(
 )
 
 // 2. Menentukan hari yang ada di pc
-let namaHari = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat","Sabtu","Minggu"]
+let namaHari = ["Minggu","Senin", "Selasa", "Rabu", "Kamis", "Jumat","Sabtu"]
 
 let Hari = new Date().getDay()
 
-let HariIni = Hari - 1
+let HariIni = Hari
 HariIni = namaHari[HariIni]
 
 alert(
