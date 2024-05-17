@@ -5,7 +5,7 @@ const body = document.body
 
 // Button 2
 const btn1 = document.getElementById('btn-1')
-const btn = document.querySelector('button')
+const btn =  document.querySelector('button')
 
 const defaultText = 'Halo, Klik Saya!'
 btn1.textContent = defaultText
@@ -21,7 +21,11 @@ function clickButton(){
     const NewText = document.createElement('p')
     NewText.textContent = 'Terimakasih sudah klik!'
     body.append(NewText)
+    for(let i = 0; i < 10; i++){
+        console.log(i)
+    }
 }
+
 
 function changeText(){
     btn1.textContent = 'Hi, Oke Saya Klik!'
